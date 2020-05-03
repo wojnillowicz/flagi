@@ -1,0 +1,56 @@
+body{
+  background: url(https://static.turbosquid.com/Preview/001243/129/39/3D-planet-earth-model_D.jpg);
+  color: white;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Rubik', sans-serif;
+}
+
+table{
+  align-self: center;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1{
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  color: white; text-shadow: black 0.2em 0.2em 0.4em;
+}
+
+h2{
+  color: white; text-shadow: black 0.4em 0.4em 0.4em;
+}
+
+h3{
+  color: white; text-shadow: black 0.2em 0.2em 0.4em;
+}
+
+p{
+  color: white; text-shadow: black 0.2em 0.2em 0.4em;
+  font-size: 0.65em;
+}
+
+#button{
+  background-color: #e5e5e5;
+  height: 30px;
+  width: 100px;
+  font-size: 0.7em;
+  border-radius: 60px;
+}
+
+
+#title{
+  font-size:  2em;
+}
+
+#flag{
+  max-height: 120px;
+  shadow: black 0.2em 0.2em 0.4em;
+}
+
+#miniflag{
+  max-height: 40px
+}

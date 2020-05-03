@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="flagi.css">
+    <title>Zgadnij, czyja to flaga!</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <h1>Zgadnij, co to za państwo!</h1>
+    <img id=flag src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/360px-Flag_of_Poland.svg.png" alt="flaga">
+    <h3 id="country">Zgadnij i naciśnij "Wyślij"!</h3>
+    <p>Proszę, nie używaj polskich znaków. <br> Zamiast "Bułgaria" lub "Włochy", wpisz "bulgaria" lub "wlochy".</p>
+    <input id="guess" type="text" placeholder="country"><br><br>
+    <button onclick="fn1()" id="button" type="button" value="submit">Wyślij</button>
+    <h2 id="correctOrNot"> </h2>
+
+    <table>
+      <tr>
+        <td>Suma: </td>
+        <td id="totalPoints">0</td>
+        <td> punktów</td>
+      </tr>
+      <tr>
+        <td>Średnia:  </td>
+        <td id="average">100</td>
+        <td>%</td>
+      </tr>
+    </table>
+
+    <p></p>
+    <p></p>
+
+
+    <table>
+      <tr>
+        <td> <img id="miniflag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/360px-Flag_of_Poland.svg.png" alt="flaga"> </td>
+      </tr>
+      <tr>
+        <td>Twoja odpowiedź: </td>
+        <td id="showingUserAnswer"> </td>
+      </tr>
+      <tr>
+        <td>Prawidłowa odpowiedź: </td>
+        <td id="showingCorrectAnswer"> </td>
+      </tr>
+
+    </table>
+
+
+  </body>
+
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous">
+  </script>
+
+  <script type="text/javascript" src="flagi.js"></script>
+</html>
